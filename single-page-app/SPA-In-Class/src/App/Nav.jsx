@@ -3,13 +3,16 @@ import styled from 'styled-components';
 
 const Nav = () => {
     return (
-        <NavStyled>Navigation</NavStyled>
+        <NavStyled>
+            <div className='nested-wrapper'>
+                Navigation
+                </div>
+            </NavStyled>
     );
 }
 
 export default Nav;
 
 const NavStyled = styled.nav`
-    background-color: pink;
-    font-size: 30px;
+    background-color: teal;
 `;
