@@ -1,0 +1,18 @@
+Relative paths - don't need to have full web address as the URL. When a user clicks a relative link, the browser 
+takes them to that location on the current site. The link's path is relative to the current document being displayed
+by the browser. You can only use relative links when linking to pages or files within your site.
+This allows you to link to folders or subfolders within your site easily. It is easier for 
+developers to use relative links because the root site is always the same and they just have to link to different 
+pages within the root site. It simplifies code and makes it more streamlined.
+Folder and file names are always case sensitive. 
+You use ../ to go up one directory and a / to go into folders. Each / represents moving down one level in the folder
+hierarchy.
+Relative links should always open in the same browser page.
+If the domain name is changed, using relative links will make that transition much easier.
+
+Document relative paths are the paths to use for local links in most websites. 
+
+Absolute paths - are used when linking to another website. You must use the full URL when linking to these sites
+(http://wwww. etc). One benefit to using absolute paths for internal links is that it can improve SEO.
+You can set absolute links to other websites to open in a new window by using target="_blank" attribute so the
+user doesn't actually leave your page when they click the link.

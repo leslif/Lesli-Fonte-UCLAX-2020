@@ -1,12 +1,23 @@
 import React from 'react';
 import styled from 'styled-components';
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
+
+import Home from './Pages/Home.jsx';
+import Contact from './Pages/Contact.jsx';
+import Login from './Pages/Login.jsx';
+import Services from './Pages/Services.jsx';
 
 const Main = () => {
     return (
         <MainStyled>
-            <div className='nested-wrapper'>
-            <h1>Page Title</h1>
-            </div>
+            <BrowserRouter>
+                <Switch>
+                    <Route path='/login' component={ Login } />
+                    <Route path='/contact' component={ Contact } />
+                    <Route path='/services' component={ Services } />
+                    <Route path='/' component={ Home } />
+                </Switch>
+            </BrowserRouter>
         </MainStyled>
     );
 }
@@ -14,9 +25,9 @@ const Main = () => {
 export default Main;
 
 const MainStyled = styled.main`
+    padding: 50px;
+
     h1 {
-        background-color: white;
         font-size: 75px;
     }
-
 `;
