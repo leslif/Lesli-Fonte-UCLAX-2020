@@ -1,0 +1,52 @@
+Project Manager
+A PM is responsible for leading teams through the development process from initiation, planning, 
+execution and completion. They supervise the team's tasks and ensure timing is on track. If any team 
+has a problem, they would consult with the PM who would strategize with the teams as a whole to problem 
+solve. They monitor project process, tracking action items, conducting design and implementation reviews, 
+examine, research, and resolve issues, escalate issues to proper channels and respond to each team 
+members' concerns. They need to be good communicators and leaders. 
+
+Business Analyst
+A BA analyzes information to establish business goals. They can help determine a specific project's 
+scope and vision. They help analyze the customer/ user so the teams know who they are creating for. 
+To do this, they can be the ones who conduct interviews and research to analyze the effectiveness of
+certain processes. They then translate their findings into clear requirements that can be used by 
+the project teams. 
+
+Scrum Master
+This is the team role responisble for ensuring the team adheres to agile values and that they follow 
+the processes and practices that the team agreed they would use. It was initially used to indicate someone 
+who is an expert at Scrum. Scrum is a framework used to manage product development. It provides a means 
+for teams to establish a hypothesis of how they think something works and then test that hypothesis 
+to make adjustments. A scrum master acts as a sort of team coach that keeps the team on track within
+agile frameworks.
+
+UX Designer
+A UX designer is someone who designs the user experience. They are an advocate for the end user. They
+do a lot of research to establish who the user is and what their pain points are in the usage of a 
+product. And they try to design solutions that solve the user's problems. They design 
+the elements that help a user interact with the product. It takes into consideration the psychology of 
+people and how they interact with machines. They can also be a UI designer which is the actual look and 
+feel of what the user sees. But technically those are two different things. 
+
+Web Developer/ Engineer
+A web developer is someone who develops the actual code that creates a site or application. They take the 
+designs that UX and UI designers create and make them into usable code that brings that design to life into 
+a usable product. They can be front end, back end, or full stack. They maintain the product and work with 
+designers to come up with new solutions. 
+
+Quality Assurance Tester
+A QA tester tests the end product to make sure the user gets the best experience. They examine a site 
+or app to try to uncover flaws that might have been overlooked during design and development. They make 
+sure the product meets the requirements that were initially expressed by the client and meets 
+objectives. They also test the design and appearance of the product. They check whether the look and 
+feel align with the proposed design and overall layout. And it also includes functionality testing: 
+making sure every link, button and form operates as it should. 
+
+DevOps
+DevOps allows organizations to develop services faster, evolving and improving products at a 
+faster pace to better serve customers and compete more effectively in the market. Under this system 
+organizations can constantly build, test and release products to customers and are able to monitor, plan and adjust 
+processes to improve the product. In this model, development and operations teams work together to monitor 
+the product at all stages of the life cycle. They work together to optimize the productivity of designers 
+and the reliability of operations. 

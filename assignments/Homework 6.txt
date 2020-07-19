@@ -1,0 +1,17 @@
+What it means for a company to be Agile...
+Agile means that cross functional teams are involved in the development process. Business leaders, 
+designers, engineers, developers work together to establish goals and then create solutions. So instead 
+of a waterfall approach where goals are set by business leadership (sometimes goals that are not
+feasible) and then passing down those instructions to designers who then design in their own silo 
+and then send designs off to developers who develop in their own silos, these various teams will work
+together at each stage of the process to define goals, limitations, and solutions together. 
+The pros are that solutions can be created more quickly and more efficiently because you're not 
+constantly going up and down this waterfall with revisions. Revisions and instructions can be 
+rec'd by all parties at the same time so everyone can retain the same vision. When issues arise, they
+can be quickly handled when everyone is involved. It also means you can break down a larger problem
+into smaller parts and work on them with the entire team, which can result in higher speeds for
+product updates and creation of new features. As opposed to a model where tasks are more high level and 
+can take a year or more to fully execute. 
+Some cons are that every team needs to be able to communicate with the other in languages that they can 
+understand and also that with an agile process, there are clear deadlines that have to be met at the 
+potential cost of some possibly better innovations or additional research. 
