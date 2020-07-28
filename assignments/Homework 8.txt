@@ -1,0 +1,25 @@
+JPG
+A JPEG is an image file format that supports lossy compression. It can support millions of colors and 
+provides better image quality. It can also be compressed to small sizes although some details can be 
+lost upon compression. It is a raster image which means if the image resolution is low, it can not be 
+sized at a large scale. It is limited to how the photo was originally taken or imported. Also each 
+compression damages the resolution slightly so if it is compressed too many times, it can degrade 
+considerably.
+
+GIF
+A GIF is an image file format that can not only support static images but also animated images. GIFs are 
+made from a series of static images that together in sequence form an animation. They can also support 
+transparency, but not full Alpha transparency. So it cannot capture all the subtleties of a true gradation 
+to transparency.  It cannot display as many colors as a jpeg. Rather, it's limited at 256 colors.
+
+PNG
+A PNG is an image file format that can support true alpha transparency. It is good for logos and other 
+images that require full transparency. PNG also supports lossless compression so it is better suited for 
+this purpose over jpeg. However, PNGs often result in larger file sizes. 
+
+SVG
+SVGs are vector graphics. They are infinitely scalable, which makes them suited for logos and images that 
+need to be scaled very large, for example, for a billboard. However, vector graphics cannot typically be 
+photos. They appear more flat and use a series of shapes and flat colors to create their image. They also 
+have very small file sizes even at very large sizes. The flat colors and shapes allow for less information 
+stored in each pixel. 

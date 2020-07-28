@@ -1,0 +1,24 @@
+A test environment is a server which allows you to test your website. It provides a dedicated environment 
+for you to isolate the code and verify the behavior of the site. It can act as the exact copy of the 
+production environment. 
+
+Local testing allows you to be able to test a work in progress site at scale without hosting them on public 
+staging environments. It is how we are testing our sites in class. We launch a local server on our browser 
+and are able to test our changes. Anyone with the folder information for our site can run this on their 
+local server. It is useful for single developers when they are working on building their portion of a site's 
+code and see results in real time.
+
+Dev testing is done at the construction stage of a site. It aims to eliminate errors before code goes to QA. 
+It increases efficiency through the testing process because errors are spotted quickly as code is being 
+written making the QA process more streamlined. 
+
+QA testing can combine manual and automated testing methods. Manual testing is done by highly skilled 
+testers who represent the different user profiles of the site and use a wide range of operating systems. 
+It's letting the site out into the world and testing it by other people who haven't yet seen the site, 
+outside of developers. But these people are connected to the business and can understand the goals, 
+objectives and the code themselves so they can give valuable feedback. They work in a controlled testing 
+environment, not production space.
+
+Production testing is testing the site's functionalities once the site has gone live. It requires daily 
+testing of key application functions and ensuring everything is working correctly. QA testers will have a 
+daily checklist of what to evaluate to make sure the site is running smoothly. 
