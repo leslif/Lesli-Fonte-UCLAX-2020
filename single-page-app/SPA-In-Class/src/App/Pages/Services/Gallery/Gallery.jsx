@@ -6,7 +6,12 @@ import GalleryItem from './GalleryItem.jsx';
 const Gallery = ({ services, currCategory }) => {
 
     const renderGallery = () => {
-        return services.packages.map((item, idx) => {
+        return services.packages
+        .filter((item, idx) => {
+            return (item.category === currCategory);
+        })
+        
+        .map((item, idx) => {
             return <GalleryItem key={ idx } item={ item } />;
         });
     }
@@ -22,5 +27,8 @@ const Gallery = ({ services, currCategory }) => {
 export default Gallery;
 
 const GalleryStyled = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     
 `;

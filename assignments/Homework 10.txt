@@ -1,0 +1,17 @@
+HTML images:
+- Use <img> tag
+- Can be clickable
+- Can be tagged for SEO readability
+- Are important for actual content of the site
+- Can contain "alt" text for accessibility and searchability
+- To have images print by default when user prints page
+- HTML images are good if you have an image that is not the right size - you can alter height and width with CSS separately
+
+CSS images:
+- Are solely for appearance
+- Do not contain content
+- Ex. Background images, things that are not clickable, used only for appearance
+- can be used for repeating images or icons that are not related to content
+- to replace text (like headers) with images
+- can add overlays, like shadows, to images 
+- if you want the image to change when the cursor hovers over it

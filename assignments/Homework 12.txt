@@ -1,0 +1,16 @@
+ID
+IDs are unique, they can only be used one time on; each page can only have one element with that ID. 
+Information that is unique should be kept in an ID. Can be used to link to one particular piece on a 
+website full of similar pieces, for example, linking to one comment on a link with many comments. Us an 
+ID when you have a single element on the page that will take that style.
+
+Class
+Classes are not unique. You can apply the same class to multiple elements. Information that is reusable 
+should be kept in a class. For the comment example above, all comments would be in the same class of 
+"comment" but each comment itself can have a unique ID. A class is a type of item whereas an ID is a unique 
+name of an item on a page. Use class when you have multiple elements on the page that will take that style. 
+
+Tag
+Tags are identifiers in HTML that surround content and give meaning to it. They are represented by <> 
+brackets. Anything that is content in HTML should have an opening tag and a closing tag and the content 
+sits between them. 

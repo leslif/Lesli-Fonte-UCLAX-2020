@@ -5,15 +5,15 @@ import { mq } from '../common/mediaQueries.js';
 
 const Footer = () => {
 
-    const myVariable = 'random string of words';
-    const anotherOne = 123;
-    console.log(myVariable, anotherOne);
+    // const myVariable = 'random string of words';
+    // const anotherOne = 123;
+    // console.log(myVariable, anotherOne);
 
-    const henry = () => {
-        console.log('Executing Henry Tag');
-    }
+    // const henry = () => {
+        // console.log('Executing Henry Tag');
+    // }
 
-    henry();
+    // henry();
 
     return (
         <FooterStyled>

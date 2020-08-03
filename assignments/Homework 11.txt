@@ -1,0 +1,18 @@
+The right size for an image takes into consideration:
+- the type of file being used (jpg, png, gif etc)
+- how fast can the image/ video load on the page
+- at what size will it be viewed (mobile/ desktop)
+- has to be scalable to an extent so it can be sized up or down depending on platform being used
+- depends on size of container
+- images that need to stretch to fill a container should be at least 1500px or they can get blurry 
+- Images for web generally should be less than 500kb
+- DPI and PPI affect image's print quality but not display for web, so dimensions should be focused on and 
+sized accordingly to keep file size small 
+- SVGs can be uploaded at a large size and then resized in CSS accordingly since their file size is already 
+so small
+- GIFs should be saved in the size you want to view them on the site. They are large and can slow down the 
+site if uploaded at actual size
+
+Videos can be multiple different qualities from standard to high-def but should give the user the option of 
+choosing which quality they want to view. Videos are hosted on websites that are then linked to via 
+embedding in the website. 
