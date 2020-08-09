@@ -1,13 +1,33 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
 import { mq } from '../../../common/mediaQueries.js';
 
+import Lightbox from '../../../common/Lightbox.jsx';
+
 const StaffMember = ({member}) => {
+
+    const [ showLBox, showLBoxUpdate ] = useState(false);
+
+    const turnOn = () => {
+        showLBoxUpdate(true);
+    }
+    const turnOff = () => {
+        showLBoxUpdate(false);
+    }
 
     return (
         <StaffMemberStyled className='StaffMember'>
-            <img src={ member.image } alt={ member.name }/>
+            <img 
+                src={ member.image } 
+                alt={ member.name }
+                onClick={ turnOn }
+                />
             <div className="title">{ member.name }</div>
+
+            <Lightbox show={ showLBox } hideAction={ turnOff } width={ 200 }>
+                <img src={ member.image } alt={ member.name }/>
+                <div className="title">{ member.name }</div>
+            </Lightbox>
         </StaffMemberStyled>
     );
 }
@@ -33,5 +53,11 @@ const StaffMemberStyled = styled.div`
         background-color: maroon;
         color: white;
         padding: 5px;
+    }
+
+    .Lightbox {
+        .title {
+            background-color: teal;
+        }
     }
 `;

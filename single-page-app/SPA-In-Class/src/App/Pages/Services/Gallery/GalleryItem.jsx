@@ -1,13 +1,36 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
 
+import Lightbox from '../../../../common/Lightbox.jsx';
+
 const GalleryItem = ({ item }) => {
+
+    const [ showLBox, showLBoxUpdate ] = useState(false);
+
+    const turnOn = () => {
+        showLBoxUpdate(true);
+    }
+    const turnOff = () => {
+        showLBoxUpdate(false);
+    }
 
     return (
         <GalleryItemStyled className='GalleryItem'>
             <div className="category"> { item.category }</div>
-            <img src={ item.image } alt={item.title }/>
+            <img 
+                src={ item.image } 
+                alt={item.title }
+                onClick={ turnOn }
+                />
             <dev className="title">{ item.title }</dev>
+            <Lightbox show={ showLBox } hideAction={ turnOff } width={ 300 }>
+                <img src={ item.image } alt={ item.title } />
+                <h3>{ item.title }</h3>
+                <div className="description">
+                    { item.description }
+                </div>
+                <div className="cost">${ item.cost }</div>
+            </Lightbox>
         </GalleryItemStyled>
     );
 }
@@ -35,6 +58,17 @@ const GalleryItemStyled = styled.div`
         background-color: rgba(202, 153, 153, .5);
         padding: 10px;
         font-size: 20px;
+    }
+
+    .Lightbox {
+        img {
+            border: solid 20px red;
+            max-width: 100%;
+        }
+        h3 {
+            font-size: 30px;
+            margin: 0px;
+        }
     }
 
 
