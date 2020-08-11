@@ -1,0 +1,25 @@
+Web accessibility means making websites accessible or usable for people with limited 
+means. This can include physical and/or mental disabilities; people of a certain age; 
+people who don't have access to certain hardware, like a computer mouse; people who 
+are using different devices, like mobile phones; and others. 
+It is important because as developers/ designers, we have to keep in mind the user 
+base and make it usable by everyone, not just the ideal case. It is the law in some 
+states, so a company could get sued if their site is not accessible. 
+The W3C has put together guidelines of how to make websites more accessible. Some 
+examples are:
+- making sure to use alt text to describe a visual image on a page (with some 
+exceptions, like decoration)
+- having an audio as well as a sign language/ captions supplement to video features
+- having your text be able to be read by a screen reader software
+- using keyboard functions for form fields and to navigate other elements on a page
+- UI design - colors that contrast significantly enough that a color blind or visually impaired person can see the content more easily; but color cannot be the sole thing used to distinguish an element on the page
+- do not design a page in a way that is known to cause seizures; no bright and rapid 
+flashes, and animation can be stopped as needed 
+- different reading levels are available
+- default language is programmatically determined
+- errors are to be described to the user in text
+- labels or instruction is given to input fields
+
+These are just some of the concepts. Accessibility can be expensive to implement once 
+a site has been developed and is in use. It is best to program these features into 
+the site at the development stage, as they are relatively simple to employ. 
