@@ -1,0 +1,13 @@
+What is a CSS preprocessor? Examples. In react, what are styled components? How do styled components violate the
+separation of concerns?
+
+CSS preprocessor:
+A CSS preprocessor is a program that lets you write CSS using that specific processor's unique syntax. It is a way for you to 
+write CSS outside of CSS. It then translates the code you've written into accurate CSS for browsers to be able to read. It is 
+helpful because it is an efficient way of writing the CSS styles in one program. There are also some features within these 
+preprocessors that don't exist in pure CSS so they have some additional advantages. 
+Some examples are: Sass, Less, and Stylus
+
+Styled-components is a way of bringing in CSS styles into Javascript and writing them together without having to keep the files 
+separate. This violates separation of concerns because traditionally, these things should all be kept separate and this is the 
+exact opposite of that. 

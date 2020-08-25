@@ -1,0 +1,1 @@
+What is a package manager? How does it play a role in software management?

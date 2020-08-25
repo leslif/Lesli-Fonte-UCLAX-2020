@@ -1,0 +1,23 @@
+Web hosts, domains, FTP...
+
+Web hosting - 
+A service that allows organizations and individuals to post a website onto the Internet. They will provide a server for your 
+website to be viewed and contain all the pages of your site. You are required to have your own domain that the host will access. 
+Web hosts are required to have a website. They also keep your site up and running and you also have access to them for support 
+and troubleshooting. 
+
+Domain - 
+Your website's URL. It is a name that you own and no one else can use. You can also use your domain name and the web hosting 
+service's email address features to create a custom email name. A web host is a computer and has an IP address associated with it. 
+So whenever someone enters a URL into their browser they are connecting to a computer with a unique IP number. Domain names were 
+created to make it easy for human users to remember and type in the address of where they want to go without having to type in this 
+unique IP address. 
+
+FTP - 
+File Transfer Protocol - a way to transfer files online
+FTP access lets you upload files from your computer to the web server. So if you build your own website through HTML files you can 
+transfer the files from your computer to the web server through FTP.
+HTTP is an example of a protocol; there are others - IMAP POP XMPP
+It is not very common anymore due to cloud based services 
+IT professionals may choose to use FTP when moving large amounts of server files within an organization.
+FTP is not secure, they aren't encrypted and it's easy to intercept files. FTPS is used for more security.

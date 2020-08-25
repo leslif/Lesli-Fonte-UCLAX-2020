@@ -2,6 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import Helmet from 'react-helmet';
 
+import LoginForm from './Contact/LoginForm.jsx';
+
 const Login = () => {
 
     return (
@@ -9,7 +11,11 @@ const Login = () => {
             <Helmet>
                 <title>Login :: SPA App</title>
             </Helmet>
-            Login
+            <div className='nested-wrapper'>
+                <div className='Login Field'>
+                    <LoginForm />
+                </div>
+            </div>
         </LoginStyled>
     );
 }

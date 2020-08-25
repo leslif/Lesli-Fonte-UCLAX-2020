@@ -1,11 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import GooglePackage from './GoogleMap/GooglePackage.jsx';
+
 const GoogleMaps = () => {
 
     return (
         <GoogleMapsStyled className='GoogleMaps'>
-            GoogleMaps 
+            <GooglePackage />
         </GoogleMapsStyled>
     );
 }
